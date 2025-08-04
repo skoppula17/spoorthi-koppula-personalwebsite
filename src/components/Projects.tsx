@@ -39,8 +39,7 @@ const projects = [
       "Real-time signal analysis",
       "Interactive visualizations"
     ],
-    technologies: ["Python", "YOLOv5", "Flask", "React.js", "MongoDB", "PyTorch"],
-    githubUrl: "https://github.com/yourusername/rf-signal-classification" // Replace with your actual repo URL
+    technologies: ["Python", "YOLOv5", "Flask", "React.js", "MongoDB", "PyTorch"]
   }
 ];
 

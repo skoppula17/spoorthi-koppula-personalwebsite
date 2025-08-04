@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
@@ -19,5 +18,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/spoorthi-koppula-personalwebsite/',  // ← ensures assets load from the correct subdirectory
+  // Only apply the GitHub Pages base in production builds:
+  base: mode === 'production'
+    ? '/spoorthi-koppula-personalwebsite/'
+    : '/',
 }));

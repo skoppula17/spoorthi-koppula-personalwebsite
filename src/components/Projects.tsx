@@ -12,7 +12,7 @@ const projects = [
       "Reduced false negatives by over 95%"
     ],
     technologies: ["Python", "Scikit-learn", "XGBoost", "LightGBM", "Pandas", "Matplotlib"],
-    githubUrl: "https://github.com/skoppula17/credit_card_fraud_detection actual repo URLL"
+    githubUrl: "https://github.com/skoppula17/credit_card_fraud_detection"
   },
   {
     title: "Assignment Tracker",

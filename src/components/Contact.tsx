@@ -56,7 +56,7 @@ const Contact = () => {
                 <h4 className="font-semibold text-foreground mb-4">Connect with me:</h4>
                 <div className="flex gap-4">
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/in/yourusername" 
                     className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center hover:bg-primary/90 transition-all duration-300 hover:scale-110"
                   >
                     <Linkedin className="w-5 h-5" />

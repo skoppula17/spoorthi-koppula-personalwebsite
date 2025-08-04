@@ -19,4 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: '/spoorthi-koppula-personalwebsite/',  // ← ensures assets load from the correct subdirectory
 }));

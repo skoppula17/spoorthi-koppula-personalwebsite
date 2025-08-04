@@ -12,7 +12,7 @@ const projects = [
       "Reduced false negatives by over 95%"
     ],
     technologies: ["Python", "Scikit-learn", "XGBoost", "LightGBM", "Pandas", "Matplotlib"],
-    githubUrl: "#" // User will provide
+    githubUrl: "https://github.com/skoppula17/credit_card_fraud_detection actual repo URLL"
   },
   {
     title: "Assignment Tracker",
@@ -26,7 +26,7 @@ const projects = [
       "Responsive UI with Tailwind CSS"
     ],
     technologies: ["React", "Next.js", "TypeScript", "FastAPI", "SQLAlchemy", "Docker", "Tailwind CSS"],
-    githubUrl: "#" // User will provide
+    githubUrl: "https://github.com/skoppula17/task-manager"
   },
   {
     title: "Smart RF Signal Classification",
@@ -39,7 +39,8 @@ const projects = [
       "Real-time signal analysis",
       "Interactive visualizations"
     ],
-    technologies: ["Python", "YOLOv5", "Flask", "React.js", "MongoDB", "PyTorch"]
+    technologies: ["Python", "YOLOv5", "Flask", "React.js", "MongoDB", "PyTorch"],
+    githubUrl: "https://github.com/yourusername/rf-signal-classification" // Replace with your actual repo URL
   }
 ];
 

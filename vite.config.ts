@@ -18,8 +18,4 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Only apply the GitHub Pages base in production builds:
-  base: mode === 'production'
-    ? '/spoorthi-koppula-personalwebsite/'
-    : '/',
 }));

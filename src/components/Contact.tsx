@@ -72,7 +72,7 @@ const Contact = () => {
                     <Github className="w-5 h-5" />
                   </a>
                   <a 
-                    href="/documents/resume.pdf" 
+                    href="/documents/Resume-SpoorthiKoppula.pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center hover:bg-primary/90 transition-all duration-300 hover:scale-110"

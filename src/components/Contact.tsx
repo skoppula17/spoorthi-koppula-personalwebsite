@@ -56,19 +56,25 @@ const Contact = () => {
                 <h4 className="font-semibold text-foreground mb-4">Connect with me:</h4>
                 <div className="flex gap-4">
                   <a 
-                    href="www.linkedin.com/in/spoorthi-koppula-4b8126211" 
+                    href="https://www.linkedin.com/in/spoorthi-koppula-4b8126211" 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center hover:bg-primary/90 transition-all duration-300 hover:scale-110"
                   >
                     <Linkedin className="w-5 h-5" />
                   </a>
                   <a 
                     href="https://github.com/skoppula17" 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center hover:bg-primary/90 transition-all duration-300 hover:scale-110"
                   >
                     <Github className="w-5 h-5" />
                   </a>
                   <a 
-                    href="#" 
+                    href="/documents/resume.pdf" 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center hover:bg-primary/90 transition-all duration-300 hover:scale-110"
                   >
                     <FileText className="w-5 h-5" />
